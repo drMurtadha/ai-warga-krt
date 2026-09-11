@@ -42,15 +42,6 @@ Gunakan untuk poster program, bengkel, ceramah, atau aktiviti KRT.
 Sediakan teks poster untuk program komuniti bertajuk “Jom Kenali AI”. Sasaran peserta ialah warga KRT dan ahli keluarga. Gaya mesti mudah, mesra, dan tidak terlalu formal.
 ```
 
-### `/magazinecover`
-
-Gunakan untuk idea gambar gaya kulit majalah.
-
-```text
-/magazinecover
-Cadangkan konsep kulit majalah bertema “AI untuk Warga KRT”. Paparkan suasana komuniti belajar AI menggunakan telefon pintar. Gaya ceria, moden, dan mudah difahami.
-```
-
 ### `/flyer`
 
 Gunakan untuk flyer ringkas.
@@ -279,6 +270,80 @@ Sediakan struktur fail HTML, CSS, dan JavaScript untuk laman GitHub Pages bagi p
 
 ---
 
+## Slash Prompt Visual Kreatif
+
+### `/magazinecover`
+
+Gunakan untuk menjana idea gambar gaya kulit majalah.
+
+```text
+/magazinecover
+Buatkan konsep kulit majalah bertema “AI untuk Warga KRT”. Paparkan warga komuniti belajar menggunakan AI melalui telefon pintar. Gaya visual ceria, moden, warna terang, tajuk besar, dan sesuai untuk paparan WhatsApp.
+```
+
+Contoh lain:
+
+```text
+/magazinecover
+Create a retro 1980s magazine cover about community members learning AI on smartphones. Use vibrant colours, big readable Malay headlines, cheerful expressions, and a nostalgic magazine layout.
+```
+
+---
+
+### `/adcreative`
+
+Gunakan untuk menghasilkan visual iklan atau promosi aktiviti.
+
+```text
+/adcreative
+Buatkan konsep visual iklan untuk program “AI untuk Warga KRT”. Fokus kepada suasana mesra komuniti, telefon pintar, pembelajaran santai, dan ayat ajakan yang mudah difahami.
+```
+
+Contoh lain:
+
+```text
+/adcreative
+Create a clean social media ad for “AI untuk Warga KRT”. Show KRT community members using smartphones confidently. Use warm lighting, friendly community atmosphere, and clear Malay text.
+```
+
+---
+
+### `/productexplosion`
+
+Gunakan untuk menghasilkan visual gaya pecahan komponen atau exploded view.
+
+```text
+/productexplosion
+Buatkan konsep visual exploded view untuk telefon pintar yang menunjukkan bagaimana AI membantu kerja harian: resepi, itinerary, jadual KRT, poster aktiviti, dan kuiz.
+```
+
+Contoh lain:
+
+```text
+/productexplosion
+Create an exploded-view style image of a smartphone, with floating layers showing AI features: recipe ideas, travel itinerary, KRT duty schedule, poster writing, and quiz creation.
+```
+
+---
+
+### `/animated`
+
+Gunakan untuk menjadikan idea visual dalam gaya animasi, kartun, atau ilustrasi.
+
+```text
+/animated
+Buatkan konsep ilustrasi animasi untuk program “AI untuk Warga KRT”. Paparkan warga KRT tersenyum menggunakan telefon pintar, fasilitator membantu, dan suasana balai KRT yang ceria.
+```
+
+Contoh lain:
+
+```text
+/animated
+Create a friendly animated illustration of KRT community members learning AI using smartphones at a neighbourhood hall. Make it cheerful, simple, and suitable for a WhatsApp poster.
+```
+
+---
+
 ## 9. Contoh Cara Guna Slash Prompt
 
 Langkah mudah:
@@ -324,6 +389,9 @@ Gunakan AI sebagai pembantu, bukan sebagai keputusan muktamad.
 /whatsappposter
 /eventposter
 /magazinecover
+/adcreative
+/productexplosion
+/animated
 /flyer
 /resepi
 /resepisihat

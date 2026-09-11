@@ -46,7 +46,7 @@ Poster utama ialah HTML/CSS dalam `#poster-content`, bukan imej. Ubah teks di si
 Bahasa laman Melayu, teks minimum 16px, sasaran sentuhan minimum 44px, fokus papan kekunci, pautan langkau, status salinan untuk pembaca skrin, accordion asli, dialog dengan kekunci Escape dan sokongan reduced motion. Kandungan utama kekal boleh dibaca tanpa JavaScript; fungsi interaktif memerlukan JavaScript.
 
 ## Slash Prompt
-`slash-prompts.md` mengandungi 26 slash prompt dan panduan penggunaan dalam Bahasa Melayu untuk warga KRT. Sepuluh pilihan dipaparkan sebagai kad dalam seksyen **Slash Prompt**, lengkap dengan tujuan, teks penuh dan butang salin. Pautan ke seksyen tersedia pada navigasi desktop dan sebelum senarai prompt biasa pada semua saiz skrin.
+`slash-prompts.md` mengandungi 29 slash prompt dan panduan penggunaan dalam Bahasa Melayu untuk warga KRT. Sepuluh pilihan asas dan empat pilihan visual kreatif dipaparkan sebagai kad dalam seksyen **Slash Prompt**, lengkap dengan tujuan, teks penuh dan butang salin. Pautan ke seksyen tersedia pada navigasi desktop dan sebelum senarai prompt biasa pada semua saiz skrin.
 
 Untuk mengemas kini kad:
 1. Edit tajuk slash prompt, tujuan atau blok `text` dalam `slash-prompts.md`.
@@ -55,3 +55,5 @@ Untuk mengemas kini kad:
 4. Commit `slash-prompts.md` dan `index.html` yang dikemas kini bersama-sama.
 
 Kad dijana sebagai HTML statik supaya boleh dibaca tanpa JavaScript dan semasa membuka fail setempat. Tiada proses build diperlukan pada GitHub Pages. Butang salin menggunakan fungsi clipboard sedia ada. Simbol `/` ialah gaya arahan, bukan arahan rasmi yang disokong oleh semua alat AI.
+
+Empat kad **Slash Prompt Visual Kreatif** menyediakan contoh Bahasa Melayu dan English, masing-masing dengan butang salin sendiri. Edit kedua-dua blok `text` di bawah prompt berkaitan dalam `slash-prompts.md`, kemudian jalankan skrip penyegerakan di atas.
