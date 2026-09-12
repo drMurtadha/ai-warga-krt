@@ -308,24 +308,6 @@ Create a clean social media ad for “AI untuk Warga KRT”. Show KRT community 
 
 ---
 
-### `/productexplosion`
-
-Gunakan untuk menghasilkan visual gaya pecahan komponen atau exploded view.
-
-```text
-/productexplosion
-Buatkan konsep visual exploded view untuk telefon pintar yang menunjukkan bagaimana AI membantu kerja harian: resepi, itinerary, jadual KRT, poster aktiviti, dan kuiz.
-```
-
-Contoh lain:
-
-```text
-/productexplosion
-Create an exploded-view style image of a smartphone, with floating layers showing AI features: recipe ideas, travel itinerary, KRT duty schedule, poster writing, and quiz creation.
-```
-
----
-
 ### `/animated`
 
 Gunakan untuk menjadikan idea visual dalam gaya animasi, kartun, atau ilustrasi.
@@ -343,6 +325,74 @@ Create a friendly animated illustration of KRT community members learning AI usi
 ```
 
 ---
+
+## Slash Prompt Visual Produk
+
+Lampirkan gambar produk dalam alat AI dahulu, kemudian salin satu contoh lengkap. Untuk GIF, gunakan alat yang boleh memproses imej dan mengeksport fail. Semak sudut yang dianggarkan sebelum digunakan untuk promosi.
+
+### `/productexplosion`
+
+Pisahkan lapisan produk dalam gambar, contohnya burger atau kraftangan warga KRT.
+
+```text
+/productexplosion
+Gunakan imej produk yang saya lampirkan sebagai rujukan utama. Hasilkan satu visual realistik dengan komponen atau lapisan produk dipisahkan dan terapung secara tersusun (exploded view).
+Kekalkan identiti, bentuk, warna, bahan, tekstur dan perkadaran produk asal. Jangan reka produk baharu atau tambah komponen tanpa asas. Susun bahagian sejajar dengan struktur asal dan jarakkan supaya jelas. Untuk makanan, ikut urutan lapisan sebenar. Untuk elektronik, jangan mereka-reka bahagian dalaman yang tidak kelihatan; minta gambar tambahan jika perlu.
+Gunakan perspektif fotografi produk, pencahayaan studio konsisten dan latar putih atau neutral. Tiada teks, label atau anak panah kecuali diminta.
+```
+
+Contoh English:
+
+```text
+/productexplosion
+Use my attached product image as the main reference. Create one realistic exploded product view with the main components or layers floating in an orderly arrangement.
+Preserve the original identity, shape, colour, materials, texture and proportions. Do not redesign the product or add unsupported components. Align the parts with the original structure and leave clear spacing. For food, preserve the actual layer order. For electronics, do not invent hidden internal parts; request additional references if needed.
+Use professional product photography, consistent studio lighting and a white or neutral background. No text, labels or arrows unless requested.
+```
+
+### `/productspin`
+
+Tunjukkan produk jualan komuniti dari lapan sudut dalam satu gambar.
+
+```text
+/productspin
+Gunakan imej produk yang saya lampirkan. Hasilkan satu helaian dengan 8 pandangan produk yang sama pada sudut 0°, 45°, 90°, 135°, 180°, 225°, 270° dan 315°, disusun dalam grid kemas 2 baris × 4 lajur mengikut turutan.
+Kekalkan bentuk, dimensi, perkadaran, warna, bahan, tekstur, logo dan corak yang sama pada setiap pandangan. Putarkan produk pada paksi menegak; jangan sekadar cerminkan atau herotkan gambar asal.
+Kekalkan ketinggian dan jarak kamera, perspektif, skala, pusat produk, pencahayaan, bayang dan latar studio putih atau neutral. Bahagian yang tidak kelihatan dalam rujukan hanya boleh dianggarkan secara konservatif tanpa butiran kompleks rekaan. Minta gambar sisi atau belakang jika ketepatan diperlukan. Jika menggunakan label sudut, pastikan tepat.
+Hasilkan helaian 8 sudut yang boleh digunakan sebagai sumber animasi 360°.
+```
+
+Contoh English:
+
+```text
+/productspin
+Use my attached product image. Create a single sheet showing the same product at 0°, 45°, 90°, 135°, 180°, 225°, 270° and 315°, in order in a neat 2-row by 4-column grid.
+Preserve the same shape, dimensions, proportions, colours, materials, textures, logo and patterns across all views. Rotate the product around its vertical axis; do not merely mirror or distort the original image.
+Keep camera height and distance, perspective, scale, product centre, lighting, shadows and white or neutral studio background consistent. Unseen sides may only be estimated conservatively without invented complex details. Request side or rear photos when accuracy matters. If angle labels are used, ensure they are correct.
+Output an eight-angle product spin sheet suitable as a source for a 360° animation.
+```
+
+### `/360gif`
+
+Gabungkan gambar pelbagai sudut menjadi fail GIF berulang untuk hebahan produk.
+
+```text
+/360gif
+Gunakan helaian 8 sudut atau 8–16 imej produk yang saya lampirkan. Asingkan pandangan sebenar daripada input dan susun mengikut putaran fizikal: 0° → 45° → 90° → 135° → 180° → 225° → 270° → 315° → kembali ke 0° untuk set 8 gambar.
+Potong setiap gambar secara konsisten. Samakan saiz kanvas, skala dan pusat produk; kekalkan nisbah bentuk dan latar. Elakkan produk melompat antara gambar. Jangan palsukan putaran dengan menggerakkan, memicit, mengherot atau memutar satu imej 2D sahaja. Jika input cuma satu sudut, minta pandangan tambahan dahulu.
+Untuk 8 gambar, gunakan sekitar 350–450 milisaat setiap gambar dan ulangan tanpa henti. Jika ada 16 gambar, gunakan semuanya dalam turutan sudut. Jangan tambah paparan simulasi, peluncur atau butang.
+Hasilkan fail GIF sebenar bernama product_360_spin.gif dan pautan muat turun. Jika alat ini tidak menyokong eksport GIF, jelaskan had tersebut dan beri langkah alternatif; jangan dakwa fail telah dihasilkan.
+```
+
+Contoh English:
+
+```text
+/360gif
+Use my attached eight-angle sheet or 8–16 product images. Extract the actual views and arrange them in physical rotation order: 0° → 45° → 90° → 135° → 180° → 225° → 270° → 315° → back to 0° for eight frames.
+Crop consistently. Match canvas size, scale and product centre while preserving aspect ratio and background. Avoid jumps between frames. Do not fake rotation by moving, squeezing, warping or rotating one 2D image. If only one view is provided, request additional views first.
+For eight frames, use about 350–450 milliseconds per frame and an infinite loop. If there are 16 frames, use all of them in angle order. Do not add simulator interfaces, sliders or buttons.
+Export a real GIF named product_360_spin.gif and provide a download link. If this tool cannot export GIF files, explain the limitation and give alternative steps instead of claiming the file was created.
+```
 
 ## 9. Contoh Cara Guna Slash Prompt
 
@@ -391,6 +441,8 @@ Gunakan AI sebagai pembantu, bukan sebagai keputusan muktamad.
 /magazinecover
 /adcreative
 /productexplosion
+/productspin
+/360gif
 /animated
 /flyer
 /resepi
